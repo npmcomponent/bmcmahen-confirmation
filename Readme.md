@@ -58,6 +58,31 @@ Same as confirmation#okay, except for the `cancel` button.
 
 Add a class name to the dialog. 
 
+## Example
+
+```javascript
+var c = require('confirmation');
+
+var trigger = document.querySelector('button')
+	, confirmation; 
+
+trigger.onclick = function(){
+	confirmation = c({
+		title: 'hi',
+		content: 'hello',
+		cancel: 'Cancel',
+		okay: 'Delete'
+	}).effect('fade')
+		.show()
+		.okay(function(e){
+			console.log('Delete it.');
+		})
+		.cancel(function(e){
+			console.log('cancel it.');
+		}); 
+};
+```
+
 
 ## License
 
