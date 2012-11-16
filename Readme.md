@@ -11,11 +11,11 @@
 
 ## Events
 
-	* `show` the dialog is shown. 
-	* `hide` the dialog is set to hide. 
-	* `hidden` the dialogue is hidden after the (optional) animation.
-	* `cancel` the (optional) cancel button was pressed.
-	* `okay` the (optional) okay button was pressed.
+`show` the dialog is shown. 
+`hide` the dialog is set to hide. 
+`hidden` the dialogue is hidden after the (optional) animation.
+`cancel` the (optional) cancel button was pressed.
+`okay` the (optional) okay button was pressed.
 
 ## API
 
