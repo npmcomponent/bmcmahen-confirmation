@@ -1,0 +1,17 @@
+
+	<div class='dialog-content {{class}}'>
+		<span class='title'> {{title}} </span>
+		<div class='body'>
+			<p>
+				{{content}}
+			</p>
+		</div>
+		<div class='confirmation-actions'>
+			{{#cancel}}
+				<button class='cancel'>{{cancel}}</button>
+			{{/cancel}}
+			{{#okay}}
+			<button class='ok main'>{{okay}}</button>
+			{{/okay}}
+		</div>
+	</div>
