@@ -16,5 +16,5 @@ module.exports = function anonymous(obj) {
     return '';
   };
 
-  return "\n	<div class='dialog-content " + escape(obj.class) + "'>\n		<span class='title'> " + escape(obj.title) + " </span>\n		<div class='body'>\n			<p>\n				" + escape(obj.content) + "\n			</p>\n		</div>\n		<div class='confirmation-actions'>\n			" + section(obj, "cancel", false, "\n				<button class='cancel'>" + escape(obj.cancel) + "</button>\n			") + "\n			" + section(obj, "okay", false, "\n			<button class='ok main'>" + escape(obj.okay) + "</button>\n			") + "\n		</div>\n	</div>\n"
+  return "\n	<div class='dialog-content " + escape(obj.className) + "'>\n		<span class='title'> " + escape(obj.title) + " </span>\n		<div class='body'>\n			<p>\n				" + escape(obj.content) + "\n			</p>\n		</div>\n		<div class='confirmation-actions'>\n			" + section(obj, "cancel", false, "\n				<button class='cancel'>" + escape(obj.cancel) + "</button>\n			") + "\n			" + section(obj, "okay", false, "\n			<button class='ok main'>" + escape(obj.okay) + "</button>\n			") + "\n		</div>\n	</div>\n"
 }

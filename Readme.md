@@ -29,6 +29,7 @@ confirmation({
 	cancel: 'your cancel button text'
 });
 ```
+
 If you precompile your own template and pass it into the options attribute you can also include any additional attributes that are contained within your template. 
 
 ### confirmation#show()
