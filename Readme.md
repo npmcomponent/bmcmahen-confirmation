@@ -1,4 +1,3 @@
-
 # Confirmation
 
   A version of the [uikit dialog box](https://github.com/component/dialog) written in pure javascript, with structural styling. This widget is useful for requesting confirmation in deleting or altering important information. For embedding html into a dialog, try `bmcmahen/modal`. 
@@ -7,7 +6,8 @@
 		
 		$ npm install -g component
 		$ cd myComponents
-    $ component install bmcmahen/confirmation
+    		$ component install bmcmahen/confirmation
+    		$ component build 
 
 ## Events
 
@@ -62,7 +62,7 @@ Add a class name to the dialog.
 ## Example
 
 ```javascript
-var c = require('confirmation');
+var c = require('bmcmahen-confirmation');
 
 var trigger = document.querySelector('button')
 	, confirmation; 
