@@ -8,7 +8,7 @@
  * button of some sort, so I've wrapped dialogue & confirmation into one module. 
  */
 
-var Emitter = require('emitter');
+var Emitter = require('component-emitter');
 
 module.exports = function(attributes, options){
 	return new Confirmation(attributes, options);

@@ -1,3 +1,4 @@
+*This repository is a mirror of the [component](http://component.io) module [bmcmahen/confirmation](http://github.com/bmcmahen/confirmation). It has been modified to work with NPM+Browserify. You can install it using the command `npm install npmcomponent/bmcmahen-confirmation`. Please do not open issues or send pull requests against this repo. If you have issues with this repo, report it to [npmcomponent](https://github.com/airportyh/npmcomponent).*
 # Confirmation
 
   A version of the [uikit dialog box](https://github.com/component/dialog) written in pure javascript, with structural styling. This widget is useful for requesting confirmation in deleting or altering important information. For embedding html into a dialog, try `bmcmahen/modal`. 

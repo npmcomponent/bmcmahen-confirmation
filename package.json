@@ -1,0 +1,13 @@
+{
+  "name": "bmcmahen-confirmation",
+  "description": "a confirmation dialogue box written in pure js",
+  "version": "0.0.1",
+  "keywords": [],
+  "styles": [
+    "confirmation.css"
+  ],
+  "dependencies": {
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git"
+  },
+  "license": "MIT"
+}
